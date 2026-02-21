@@ -1,0 +1,17 @@
+[
+    {    
+    "title": "Brand Identity",
+    "desc": "Creating memorable brand identities that resonate with your audience. From logo design to complete visual systems, I craft cohesive brand experiences that stand out.",
+    "icon": "🎨"
+  },
+  {
+    "title": "Web Design",
+    "desc": "Designing beautiful, user-friendly websites that convert. I focus on creating intuitive interfaces that provide seamless experiences accross all devices.",
+    "icon": "🖥️"
+  },
+  {
+    "title": "Development",
+    "desc": "Building scalable web applications with clean, modern code. I bring designs to life with modern technologies and best practices for optimal performance.",
+    "icon": "💻"
+  }
+]

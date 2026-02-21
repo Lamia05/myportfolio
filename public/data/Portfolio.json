@@ -1,0 +1,81 @@
+ [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "category": "Frontend UI / Libraries",
+      "img": "https://i.postimg.cc/xdkgpRc5/html-icon.jpg",
+      "skill": 90
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "category": "Frontend UI / Libraries",
+      "img": "",
+      "skill": 85
+    },
+    {
+      "id": 3,
+      "name": "Tailwind CSS",
+      "category": "Frontend UI / Libraries",
+      "img": "",
+      "skill": 80
+    },
+    {
+      "id": 4,
+      "name": "React JS",
+      "category": "Frontend UI / Libraries",
+      "img": "",
+      "skill": 85
+    },
+    {
+      "id": 5,
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "img": "",
+      "skill": 90
+    },
+    {
+      "id": 6,
+      "name": "Node JS",
+      "category": "Programming Languages",
+      "img": "https://i.postimg.cc/PJZ5SBjT/pnl.png",
+      "skill": 75
+    },
+    {
+      "id": 7,
+      "name": "Next.Js",
+      "category": "Programming Languages",
+      "img": "",
+      "skill": 80
+    },
+    {
+      "id": 8,
+      "name": "Git",
+      "category": "Tools & Others",
+      "img": "",
+      "skill": 80
+    },
+    {
+      "id": 9,
+      "name": "GitHub",
+      "category": "Tools & Others",
+      "img": "",
+      "skill": 85
+    },
+    {
+      "id": 10,
+      "name": "VS Code",
+      "category": "Tools & Others",
+      "img": "",
+      "skill": 90
+    },
+    {
+      "id": 11,
+      "name": "Figma",
+      "category": "Tools & Others",
+      "img": "",
+      "skill": 80
+    }
+     
+  ]
+
