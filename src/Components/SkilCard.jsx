@@ -27,10 +27,10 @@ export default function SkillCard() {
 
 
     return(
-        <section className="bg-gray-50 px-10 py-2">
-            <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-gray-800 mb-2">Technologies & Tools</h2>
-                <p className="text-gray-500">Mastering modern technologies to craft exceptional digital experiences with precision & creativity</p>
+        <section className="bg-gray-50 px-4 sm:px-6 md:px-10 py-12">
+            <div className="text-center mb-10">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3">Technologies & Tools</h2>
+                <p className="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">Mastering modern technologies to craft exceptional digital experiences with precision & creativity</p>
 
             </div>
 
@@ -51,11 +51,11 @@ export default function SkillCard() {
             </div>
 
              {/* Technology Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredTech.map((tech) => (
           <div
             key={tech.id}
-            className="relative bg-white border rounded-2xl shadow-sm hover:shadow-md overflow-hidden transition-all duration-300 w-full max-w-xs text-center p-6"
+            className=" bg-white border rounded-2xl shadow-sm hover:shadow-md  transition-all duration-300 text-center p-6"
           >
             {/* Icon */}
             <div className="mb-4 text-blue-500 flex justify-center">

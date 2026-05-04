@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub, FaDribbble } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-emerald-600 text-white pt-16">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
         
         <div>
@@ -12,9 +12,9 @@ const Footer = () => {
             <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center font-bold">
               RJ
             </div>
-            <h3 className="text-xl font-semibold">Rawjatul Jannat Lamia</h3>
+            <h3 className="sm:text-xl text-lg font-semibold">Rawjatul Jannat Lamia</h3>
           </div>
-          <p className="text-white/80 text-sm max-w-xs">
+          <p className="text-white/80 text-sm max-w-xs leading-relaxed">
             Crafting digital experiences that blend innovation with aesthetics.
           </p>
         </div>
@@ -50,10 +50,10 @@ const Footer = () => {
         
         <div>
           <h4 className="font-semibold mb-4">Stay Updated</h4>
-          <p className="text-white/80 text-sm mb-4">
+          <p className="text-white/80 text-sm mb-4 leading-relaxed">
             Subscribe to get the latest news and updates.
           </p>
-          <div className="flex items-center bg-white/20 rounded-full overflow-hidden">
+          <div className="flex flex-col sm:flex-row bg-white/20 rounded-2xl overflow-hidden">
             <input
               type="email"
               placeholder="Your email"
@@ -68,7 +68,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/20 mt-12">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-sm text-white/70">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-sm text-white/70">
           <p className="text-center">© 2026 Rawjatul Jannat Lamia. All rights reserved.</p>
           
         </div>
