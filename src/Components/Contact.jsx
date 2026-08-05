@@ -1,84 +1,97 @@
-import React from 'react'
+import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaPhone } from "react-icons/fa6";
+import { FaPhone, FaLinkedin, FaGithub, FaDribbble, FaXTwitter } from "react-icons/fa6";
 import { MdLocationPin } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
-const Contact=() => {
-
-
+const Contact = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+    <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-10 flex justify-center">
 
-            <div>
-                <h2 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">Let's Create <br></br>Together</h2>
-                <p className="text-gray-600 mb-8 text-sm sm:text-base leading-relaxed">Have a project in mind?Drop me a line and let's discuss <br></br>how we can bring your vision to life.</p>
+      <div className="w-full max-w-7xl grid items-start grid-cols-1 md:grid-cols-2 gap-12">
 
-                <div className="space-y-4">
-                    <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
-                        <HiOutlineMail className="text-2xl text-emerald-500"/>
-                
-                    <div>
-                        <h4 className="font-semibold">E-mail</h4>
-                        <p className="text-gray-600">lamia@portolio.com</p>
-                    </div>
-                    </div>
-                    <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
-                        <FaPhone className="text-2xl text-emerald-500"/>
-                    <div>
-                        <h4 className="font-semibold">Phone</h4>
-                        <p className="text-gray-600">01401088049</p>
-                    </div>
-                    </div>
+        {/* LEFT SIDE */}
+        <div>
 
-                    <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
-                        <MdLocationPin className="text-2xl text-emerald-500"/>
-                    <div>
-                        <h4 className="font-semibold">location</h4>
-                        <p className="text-gray-600">Dhaka,Bangladesh</p>
-                    </div>
-                    
-                    </div>
-                <div className="flex flex-wrap gap-4 pt-6">
-                    <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
-                        <FaLinkedin />
-                    </a>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
+            Let's Create <br /> Together
+          </h2>
 
-                     <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
-                        <FaGithub />
+          <p className="text-gray-600 mb-8 text-sm sm:text-base leading-relaxed">
+            Have a project in mind? Drop me a line and let's discuss how we can bring your vision to life.
+          </p>
 
-                    </a>
+          <div className="space-y-4">
 
-                     <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
-                        <FaDribbble />
-
-
-                    </a>
-                     <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
-                        <FaXTwitter />
-                    </a>
-                    </div>
-            </div>
+            <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
+              <HiOutlineMail className="text-2xl text-emerald-500" />
+              <div>
+                <h4 className="font-semibold">E-mail</h4>
+                <p className="text-gray-600">lamia@portolio.com</p>
+              </div>
             </div>
 
-            <form className="bg-white p-6 sm:p-8 rounded-xl shawdow space-y-4">
-                <input type="text" placeholder="Your Name" className="w-full p-3 border rounded-lg outline-none"></input>
+            <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
+              <FaPhone className="text-2xl text-emerald-500" />
+              <div>
+                <h4 className="font-semibold">Phone</h4>
+                <p className="text-gray-600">01401088049</p>
+              </div>
+            </div>
 
-                <input type="text" placeholder="Your Email" className="w-full p-3 border rounded-lg outline-none"></input>
+            <div className="flex items-center gap-4 bg-white p-5 rounded-xl shadow">
+              <MdLocationPin className="text-2xl text-emerald-500" />
+              <div>
+                <h4 className="font-semibold">Location</h4>
+                <p className="text-gray-600">Dhaka, Bangladesh</p>
+              </div>
+            </div>
 
-                <input type="text" placeholder="Subject" className="w-full p-3 border rounded-lg outline-none"></input>
-                <textarea rows="4" placeholder="Your Message" className="w-full p-3 border rounded-lg outline-none"></textarea>
+          </div>
 
-                <button className="w-full bg-emerald-500 text-white py-3 rounded-full font-semibold hover:bg-emerald-600 transition">Send Message</button>
-            </form>
-        </div> 
+          {/* SOCIAL */}
+          <div className="flex flex-wrap gap-4 pt-6">
+
+            <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
+              <FaLinkedin />
+            </a>
+
+            <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
+              <FaGithub />
+            </a>
+
+            <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
+              <FaDribbble />
+            </a>
+
+            <a className="p-3 bg-white rounded-full shadow hover:bg-emerald-500 hover:text-white transition">
+              <FaXTwitter />
+            </a>
+
+          </div>
+
+        </div>
+
+        {/* FORM */}
+        <form className="bg-white p-6 sm:p-8 rounded-xl shadow space-y-4">
+
+          <input type="text" placeholder="Your Name" className="w-full p-3 border rounded-lg outline-none" />
+
+          <input type="text" placeholder="Your Email" className="w-full p-3 border rounded-lg outline-none" />
+
+          <input type="text" placeholder="Subject" className="w-full p-3 border rounded-lg outline-none" />
+
+          <textarea rows="4" placeholder="Your Message" className="w-full p-3 border rounded-lg outline-none"></textarea>
+
+          <button className="w-full bg-emerald-500 text-white py-3 rounded-full font-semibold hover:bg-emerald-600 transition">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
 
     </section>
   );
 };
-export default Contact;
 
+export default Contact;
